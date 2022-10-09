@@ -22,4 +22,5 @@ const HeadersComponents = () => {
         </>
     )
 }
+
 export default HeadersComponents;

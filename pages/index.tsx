@@ -1,12 +1,12 @@
 import type { NextPage } from "next"
 import Image from "next/image"
-import { HeadersComponents } from "./header"
 import Pictures from "./assets/pictures.jpeg"
 import Proj1 from "./assets/proj1.png"
 import Proj2 from "./assets/Proj2.png"
 import Proj3 from "./assets/proj3.png"
-import { Tech } from "./tech"
-import { Socmed } from "./socmed"
+import HeadersComponents from "./HeadersComponents"
+import Socmed from "./socmed"
+import Tech from "./tech"
 
 const Home: NextPage = () => {
   return (
