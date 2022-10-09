@@ -1,7 +1,7 @@
 import Image from "next/image"
 import LogoDark from './assets/logo-dark.png'
 
-export const HeadersComponents = () => {
+const HeadersComponents = () => {
     return (
         <>
             <div className="d-flex justify-content-between">
@@ -22,3 +22,4 @@ export const HeadersComponents = () => {
         </>
     )
 }
+export default HeadersComponents;

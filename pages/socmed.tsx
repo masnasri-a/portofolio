@@ -1,6 +1,6 @@
 import { FaFacebook, FaInstagram, FaTelegram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 
-export const Socmed = (props: any) => {
+const Socmed = (props: any) => {
     let logo;
     if (props.title == "Facebook") {
         logo = (
@@ -45,3 +45,5 @@ export const Socmed = (props: any) => {
         </>
     )
 }
+
+export default Socmed;

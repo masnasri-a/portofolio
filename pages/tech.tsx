@@ -2,7 +2,7 @@ import Image from 'next/image';
 import {SiSolidity, SiEthereum, SiNextdotjs, SiElastic, SiMongodb, SiReact, SiLaravel, SiMysql, SiPostgresql, SiRedis, SiRust, SiPython, SiJava, SiJavascript, SiTypescript } from 'react-icons/si';
 import Solana from './assets/solana.png'
 
-export const Tech = (props: any) => {
+const Tech = (props: any) => {
     let images;
     if (props.title == "NextJS") {
         images = <SiNextdotjs color='black' />
@@ -64,3 +64,5 @@ export const Tech = (props: any) => {
         </>
     )
 }
+
+export default Tech;
