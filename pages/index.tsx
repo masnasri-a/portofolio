@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <div className="main">
         <div className="titles">
           <div className="title">
-            <span>Hi, I'm <a className="NameHeader"> Nasri</a> Software Engineer</span>
+            <span>Hi, I&apos;m <a className="NameHeader"> Nasri</a> Software Engineer</span>
             <br />
             <span>Based In Indonesia.</span>
           </div>
